@@ -1,0 +1,188 @@
+.stories-hero-cont {
+  position: relative;
+  .gradient-line {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 197, 147, 1) 0%,
+      rgba(188, 113, 152, 1) 35%,
+      rgba(90, 119, 255, 1) 100%
+    );
+    height: 6px;
+    width: 128px;
+    position: absolute;
+    top: 0;
+  }
+
+  .hero-text-cont {
+    position: relative;
+    width: 100%;
+    padding: 72px 24px 72px 33px;
+    background-color: black;
+    color: white;
+
+    @apply sm:absolute sm:bottom-[5%] sm:bg-transparent sm:max-w-[387px];
+
+    .headline {
+      margin-bottom: 16px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height */
+      letter-spacing: 2px;
+      color: #ffffff;
+    }
+
+    .hero-text-title {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
+      /* or 125% */
+
+      letter-spacing: 3.33333px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+
+    .author-date {
+      margin-top: 16px;
+      margin-bottom: 24px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 17px;
+      /* identical to box height */
+
+      color: #ffffff;
+
+      .date {
+        margin-right: 9px;
+      }
+    }
+    .hero-text-body {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+
+      color: #ffffff;
+
+      mix-blend-mode: normal;
+      opacity: 0.6;
+
+      margin-bottom: 16px;
+    }
+
+    .hero-text-invite {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height */
+
+      letter-spacing: 2px;
+
+      color: #ffffff;
+    }
+  }
+}
+
+.stories-stories-cont {
+    width: 100%;
+    object-fit: cover;
+    @apply lg:flex;
+    .cont-one{
+        @apply sm:flex; 
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .cont-two{
+        @apply sm:flex; 
+        width: 100%;
+        object-fit: cover;
+    }
+  .story {
+    position: relative;
+    width: 100%;
+    img{
+        @apply min-h-[500px];
+    }
+    .img-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      );
+    }
+    .story-date {
+      margin-bottom: 4px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 17px;
+      /* identical to box height */
+      color: #ffffff;
+
+
+    }
+    .story-text {
+      position: absolute;
+      z-index: 10;
+      bottom: 40px;
+      width: 100%;
+      padding: 0 33px;
+
+      .story-title {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height, or 139% */
+        color: #ffffff;
+        margin-bottom: 4px;
+      }
+
+      .story-author {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #ffffff;
+      }
+
+      .read-story {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height */
+        letter-spacing: 2px;
+        color: #ffffff;
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+        margin-top: 16px;
+        padding-top: 20px;
+      }
+    }
+  }
+}
