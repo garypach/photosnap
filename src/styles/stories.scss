@@ -13,15 +13,17 @@
     top: 0;
   }
 
-  .hero-text-cont {
-    position: relative;
+  
+
+  .hero-text-cont {    
     width: 100%;
     padding: 72px 24px 72px 33px;
     background-color: black;
     color: white;
+    
+    @apply sm:absolute sm:bottom-[0%] sm:bg-transparent sm:max-w-[387px];
 
-    @apply sm:absolute sm:bottom-[5%] sm:bg-transparent sm:max-w-[387px];
-
+    
     .headline {
       margin-bottom: 16px;
       font-family: DM Sans;
@@ -82,40 +84,56 @@
     }
 
     .hero-text-invite {
+      @apply sm:hover:underline ;
       font-family: DM Sans;
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
       line-height: 16px;
       /* identical to box height */
-
       letter-spacing: 2px;
-
       color: #ffffff;
+      cursor: pointer;
+    }
+    @media screen and (min-width: 1024px) {
+      .hero-text-invite:hover + .stories-hero-overlay{
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: radial-gradient(68.48% 68.48% at 0% 100%, #FFC593 0%, rgba(188, 113, 152, 0.496968) 52.36%, rgba(90, 119, 255, 0.0001) 100%);
+        mix-blend-mode: normal;
+        opacity: 0.49;
+      }
     }
   }
 }
 
 .stories-stories-cont {
+  width: 100%;
+  object-fit: cover;
+  @apply lg:flex;
+  .cont-one {
+    @apply sm:flex;
     width: 100%;
     object-fit: cover;
-    @apply lg:flex;
-    .cont-one{
-        @apply sm:flex; 
-        width: 100%;
-        object-fit: cover;
-
-    }
-    .cont-two{
-        @apply sm:flex; 
-        width: 100%;
-        object-fit: cover;
-    }
+  }
+  .cont-two {
+    @apply sm:flex;
+    width: 100%;
+    object-fit: cover;
+  }
   .story {
+    @apply sm:hover:-translate-y-6 sm:ease-in-out sm:duration-300;
     position: relative;
     width: 100%;
-    img{
-        @apply min-h-[500px];
+    cursor: pointer;
+    z-index: 10;
+
+    img {
+      @apply min-h-[500px];
     }
     .img-overlay {
       position: absolute;
@@ -139,8 +157,6 @@
       line-height: 17px;
       /* identical to box height */
       color: #ffffff;
-
-
     }
     .story-text {
       position: absolute;
