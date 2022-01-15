@@ -11,18 +11,44 @@
     <title>Photosnap</title>
 </head>
 <body>
-    <div class="hero-cont">
-        <div class="hero-img">
+    <header class="header">
+        <nav class="navbar z-50">
+            <a href="/src/index.html" class="nav-logo"><img src="../public/assets/shared/desktop/logo.svg" width="200"/></a>
+            <ul class="nav-menu z-50">
+                <li class="nav-item">
+                    <a class="nav-link">our company</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">contact</a>
+                </li>
+            </ul>
+            <button class="border-none">
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            </button>
+         
+        </nav>
+    </header> 
+    <div class="hero-cont w-[100%]">
+        <div class="hero-img lg:w-[100%]">
             <picture>
-                <source media="(min-width:1440px)" srcset="../public/assets/home/desktop/create-and-share.jpg">
-                <source media="(min-width:768px)" srcset="../public/assets/home/tablet/create-and-share.jpg">
-                <img src="../public/assets/home/mobile/create-and-share.jpg" alt="create-and-share" style="width:100%;">
+                <source media="(min-width:1024px)" srcset="../public/assets/home/desktop/create-and-share.jpg">
+                <source media="(min-width:640px)" srcset="../public/assets/home/tablet/create-and-share.jpg">
+                <img src="../public/assets/home/mobile/create-and-share.jpg" alt="create-and-share" style="width:100%;"class="sm:h-[490px] sm:min-w-[273px]">
             </picture>
         </div>
-        <div class="hero-text-cont">
+        <div class="hero-text-cont  w-[100%]">
             <div class="gradient-line">
 
             </div>
+            <div class="sm:max-w-[387px] w-[100%]">
+
             <div class="hero-text-title">
                 Create and share your photo stories. 
             </div>
@@ -37,18 +63,21 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fill-rule="evenodd" stroke="#FFFFFF"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
                 </div>
             </div>
+            </div>
         </div>
     </div>
 
-    <div class="hero-cont-two">
-        <div class="hero-img">
+    <div class="hero-cont-two w-[100%]">
+        <div class="hero-img lg:w-[100%]">
             <picture>
-                <source media="(min-width:1440px)" srcset="../public/assets/home/desktop/beautiful-stories.jpg">
-                <source media="(min-width:768px)" srcset="../public/assets/home/tablet/beautiful-stories.jpg">
-                <img src="../public/assets/home/mobile/beautiful-stories.jpg" alt="create-and-share" style="width:100%;">
+                <source media="(min-width:1024px)" srcset="../public/assets/home/desktop/beautiful-stories.jpg">
+                <source media="(min-width:640px)" srcset="../public/assets/home/tablet/beautiful-stories.jpg">
+                <img src="../public/assets/home/mobile/beautiful-stories.jpg" alt="create-and-share" style="width:100%;" class="sm:h-[490px] sm:min-w-[273px]">
             </picture>
         </div>
-        <div class="hero-text-cont">
+        <div class="hero-text-cont w-[100%]">
+            <div class="sm:max-w-[387px] w-[100%]">
+
             <div class="hero-text-title">BEAUTIFUL STORIES EVERY TIME</div>
             <div class="hero-text-body">
                 We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.
@@ -61,17 +90,20 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fill-rule="evenodd" stroke="#000"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
                 </div>
             </div>
+            </div>
         </div>
     </div>
-    <div class="hero-cont-two">
-        <div class="hero-img">
+    <div class="hero-cont-two  w-[100%] sm:flex-row-reverse">
+        <div class="hero-img lg:w-[100%]">
             <picture>
-                <source media="(min-width:1440px)" srcset="../public/assets/home/desktop/designed-for-everyone.jpg">
-                <source media="(min-width:768px)" srcset="../public/assets/home/tablet/designed-for-everyone.jpg">
-                <img src="../public/assets/home/mobile/designed-for-everyone.jpg" alt="create-and-share" style="width:100%;">
+                <source media="(min-width:1024px)" srcset="../public/assets/home/desktop/designed-for-everyone.jpg">
+                <source media="(min-width:640px)" srcset="../public/assets/home/tablet/designed-for-everyone.jpg">
+                <img src="../public/assets/home/mobile/designed-for-everyone.jpg" alt="create-and-share" style="width:100%;" class="sm:h-[490px] sm:min-w-[273px]">
             </picture>
         </div>
-        <div class="hero-text-cont">
+        <div class="hero-text-cont  w-[100%]">
+            <div class="sm:max-w-[387px] w-[100%]">
+
             <div class="hero-text-title">DESIGNED FOR EVERYONE</div>
             <div class="hero-text-body">
                 Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. 
@@ -84,6 +116,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14"><g fill="none" fill-rule="evenodd" stroke="#000"><path d="M0 7h41.864M35.428 1l6 6-6 6"/></g></svg>
                 </div>
             </div>
+            </div>
         </div>
     </div>
 
@@ -91,7 +124,7 @@
         <div class="cont-one">
             <div class="story">
                 <picture>
-                    <source media="(min-width:1440px)" srcset="../public/assets/stories/desktop/mountains.jpg">
+                    <source media="(min-width:1024px)" srcset="../public/assets/stories/desktop/mountains.jpg">
                     <img src="../public/assets/stories/mobile/mountains.jpg" alt="create-and-share" style="width:100%;">
                 </picture>
                 <div class="img-overlay"></div>
@@ -102,7 +135,7 @@
                     <p class="story-author">
                         by John Appleseed
                     </p>
-                    <div class="read-story flex">
+                    <div class="read-story flex items-center">
                         <div class="mr-3">
                             READ STORY
                         </div>
@@ -115,18 +148,19 @@
 
             <div class="story">
                 <picture>
-                    <source media="(min-width:1440px)" srcset="../public/assets/stories/desktop/cityscapes.jpg">
+                    <source media="(min-width:1024px)" srcset="../public/assets/stories/desktop/cityscapes.jpg">
                     <img src="../public/assets/stories/mobile/cityscapes.jpg" alt="create-and-share" style="width:100%;">
                 </picture>
                 <div class="img-overlay"></div>
                 <div class="story-text">
+
                     <p class="story-title">
                         Sunset Cityscapes
                                         </p>
                     <p class="story-author">
                         by Benjamin Cruz
                     </p>
-                    <div class="read-story flex">
+                    <div class="read-story flex items-center">
                         <div class="mr-3">
                             READ STORY
                         </div>
@@ -137,21 +171,22 @@
                 </div>
             </div>
         </div>
-        <div class="cont-2">
+        <div class="cont-two">
             <div class="story">
                 <picture>
-                    <source media="(min-width:1440px)" srcset="../public/assets/stories/desktop/18-days-voyage.jpg">
+                    <source media="(min-width:1024px)" srcset="../public/assets/stories/desktop/18-days-voyage.jpg">
                     <img src="../public/assets/stories/mobile/18-days-voyage.jpg" alt="create-and-share" style="width:100%;">
                 </picture>
                 <div class="img-overlay"></div>
                 <div class="story-text">
+
                     <p class="story-title">
                         18 Days Voyage
                     </p>
                     <p class="story-author">
                         by Alexei Borodin
                     </p>
-                    <div class="read-story flex">
+                    <div class="read-story flex items-center">
                         <div class="mr-3">
                             READ STORY
                         </div>
@@ -164,18 +199,19 @@
 
             <div class="story">
                 <picture>
-                    <source media="(min-width:1440px)" srcset="../public/assets/stories/desktop/architecturals.jpg">
+                    <source media="(min-width:1024px)" srcset="../public/assets/stories/desktop/architecturals.jpg">
                     <img src="../public/assets/stories/mobile/architecturals.jpg" alt="create-and-share" style="width:100%;">
                 </picture>
                 <div class="img-overlay"></div>
                 <div class="story-text">
+
                     <p class="story-title">
                         Architecturals
                     </p>
                     <p class="story-author">
                         by Samantha Brooke
                     </p>
-                    <div class="read-story flex">
+                    <div class="read-story flex items-center">
                         <div class="mr-3">
                             READ STORY
                         </div>
@@ -189,7 +225,7 @@
     </div>
 
     <div class="hero-features">
-        <div class="feature-cont">
+        <div class="feature-cont lg:mr-[30px]">
             <div class="feature-img">
                 <img src="../public/assets/features/desktop/responsive.svg" alt="responsive" style="width:72px">
             </div>
@@ -201,7 +237,7 @@
             </div>
         </div>
 
-        <div class="feature-cont mt-[56px]">
+        <div class="feature-cont mt-[56px] lg:mt-0 lg:mr-[30px]">
             <div class="feature-img">
                 <img src="../public/assets/features/desktop/no-limit.svg" alt="no limit" style="width:72px">
             </div>
@@ -214,7 +250,7 @@
         </div>
 
 
-        <div class="feature-cont mt-[56px]">
+        <div class="feature-cont mt-[56px] lg:mt-0">
             <div class="feature-img">
                 <img src="../public/assets/features/desktop/embed.svg" alt="embed" style="width:72px">
             </div>
@@ -294,5 +330,7 @@
 
         </div>
     </footer>
+
+    <script src="../src/js/app.js"></script>
 </body>
 </html>
