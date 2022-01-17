@@ -1,7 +1,7 @@
 .features-hero-cont {
   position: relative;
-    width: 100%;
-  @apply sm:flex sm:flex-row-reverse sm:h-[490px] ;
+  width: 100%;
+  @apply sm:flex sm:flex-row-reverse sm:h-[490px];
   .gradient-line {
     background: linear-gradient(
       90deg,
@@ -16,6 +16,7 @@
 
     @apply sm:-left-[60px] sm:top-[233px] sm:rotate-90;
   }
+
   .hero-text-cont {
     position: relative;
     width: 100%;
@@ -23,7 +24,7 @@
     background-color: black;
     color: white;
 
-    @apply sm:flex sm:justify-center sm:items-center sm:max-w-[495px] lg:max-w-[610px];
+    @apply sm:flex sm:justify-center sm:items-center sm:w-[495px] lg:max-w-[610px];
 
     .hero-text-title {
       font-family: DM Sans;

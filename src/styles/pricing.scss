@@ -1,0 +1,335 @@
+.pricing-cont {
+  width: 100%;
+  @apply flex flex-col justify-center items-center lg:flex-row ;
+
+  .cont {
+    width: 100%;
+    background-color: #f5f5f5;
+    @apply flex flex-col items-center max-w-[318px] sm:max-w-[689px] sm:items-start lg:max-w-[350px] lg:items-center;
+
+    .gradient-line {
+      background: linear-gradient(
+        26.57deg,
+        #ffc593 0%,
+        #bc7198 43.29%,
+        #5a77ff 83.33%
+      );
+      width: 100%;
+      height: 6px;
+    }
+    .pricing-text-price {
+      width: 100%;
+      @apply mt-[56px] flex flex-col items-center sm:flex-row sm:justify-between sm:items-start lg:flex-col lg:justify-center lg:items-center;
+      .text {
+        max-width: 275px;
+        text-align: center;
+        @apply sm:ml-[40px] lg:ml-0;
+        .type {
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 25px;
+          /* identical to box height, or 104% */
+
+          text-align: center;
+
+          color: #000000;
+          @apply sm:text-left lg:text-center;
+        }
+        .desc {
+          margin-top: 18px;
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 25px;
+          /* or 167% */
+
+          text-align: center;
+
+          color: #000000;
+
+          mix-blend-mode: normal;
+          opacity: 0.6;
+          @apply sm:text-left lg:text-center;
+        }
+      }
+      .price {
+        max-width: 245px;
+        @apply mt-[40px] sm:mt-[2px] sm:mr-[48px] lg:mt-[40px] lg:mr-0;
+
+        .cost {
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 48px;
+          /* identical to box height, or 120% */
+
+          text-align: center;
+          letter-spacing: 4.16667px;
+          text-transform: uppercase;
+
+          color: #000000;
+        }
+
+        .time-frame {
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 25px;
+          /* identical to box height, or 167% */
+
+          text-align: center;
+
+          color: #000000;
+
+          mix-blend-mode: normal;
+          opacity: 0.6;
+        }
+      }
+    }
+    .pick-plan {
+      button {
+        background-color: black;
+        color: white;
+        width: 100%;
+        padding: 10px 0;
+        width: 245px;
+        &:hover {
+          background: #dfdfdf;
+          color: black;
+        }
+        @apply mb-[40px] mt-[40px] sm:ml-[40px] lg:ml-0;
+      }
+    }
+  }
+
+  .cont-two {
+    width: 100%;
+    background-color: black;
+    @apply flex flex-col items-center max-w-[318px] sm:max-w-[689px] sm:items-start lg:max-w-[350px] lg:items-center;
+
+    .gradient-line {
+      background: linear-gradient(
+        26.57deg,
+        #ffc593 0%,
+        #bc7198 43.29%,
+        #5a77ff 83.33%
+      );
+      width: 100%;
+      height: 6px;
+    }
+    .pricing-text-price {
+      width: 100%;
+      @apply mt-[56px] flex flex-col items-center sm:flex-row sm:justify-between sm:items-start lg:flex-col lg:justify-center lg:items-center;
+      .text {
+        max-width: 275px;
+        text-align: center;
+        @apply sm:ml-[40px] lg:ml-0;
+        .type {
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 25px;
+          /* identical to box height, or 104% */
+
+          text-align: center;
+
+          color: #ffffff;
+          @apply sm:text-left lg:text-center;
+        }
+        .desc {
+          margin-top: 18px;
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 25px;
+          /* or 167% */
+
+          text-align: center;
+
+          color: #ffffff;
+
+          mix-blend-mode: normal;
+          opacity: 0.6;
+          @apply sm:text-left lg:text-center;
+        }
+      }
+      .price {
+        max-width: 245px;
+        @apply mt-[40px] sm:mt-[2px] sm:mr-[48px] lg:mt-[40px] lg:mr-0;
+
+        .cost {
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 48px;
+          /* identical to box height, or 120% */
+
+          text-align: center;
+          letter-spacing: 4.16667px;
+          text-transform: uppercase;
+
+          color: #ffffff;
+        }
+
+        .time-frame {
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 25px;
+          /* identical to box height, or 167% */
+
+          text-align: center;
+
+          color: #ffffff;
+
+          mix-blend-mode: normal;
+          opacity: 0.6;
+        }
+      }
+    }
+    .pick-plan {
+      button {
+        background-color: white;
+        color: black;
+        width: 100%;
+        padding: 10px 0;
+        width: 245px;
+
+        &:hover {
+          background: #dfdfdf;
+        }
+        @apply mb-[40px] mt-[40px] sm:ml-[40px] lg:ml-0;
+      }
+    }
+  }
+}
+
+.pricing-features-cont{
+  width: 100%;
+  margin: 64px 0;
+  @apply flex flex-col justify-center items-center;
+
+  .compare-text{
+    margin-bottom: 64px;
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 4.16667px;
+text-transform: uppercase;
+
+color: #000000;
+  }
+  .cont{
+    width: 100%;
+    @apply max-w-[318px] sm:max-w-[689px] lg:max-w-[731px];
+
+    .pricing-features{
+      width: 100%;
+      padding-bottom: 23px;
+      border-bottom: 1px solid black;
+      @apply flex justify-between;
+  
+      .features-title{
+        font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #000000;
+      }
+      .features{
+        @apply hidden sm:block sm:flex;
+
+        .feature{
+          width: 140px;
+          text-align: center;
+          font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #000000;
+        }
+  
+      }
+    }
+
+    .features-types{
+      border-bottom: 1px solid #DFDFDF;
+      padding-bottom:24px; 
+      @apply flex flex-col sm:flex-row sm:justify-between;
+
+      .types-title{
+        margin-top: 23px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height */
+        
+        letter-spacing: 2px;
+        
+        color: #000000;
+      }
+
+      .checkmarks-cont{
+        width: 100%;
+        margin-top: 16px;
+        @apply flex justify-between sm:w-[61%] sm:justify-around lg:w-[58%];
+        
+        .checkmark{
+          @apply sm:w-[140px] sm:flex sm:flex-col sm:items-center;
+          .feature{
+            margin-bottom: 8px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 13px;
+            /* identical to box height */
+            
+            letter-spacing: 1.66667px;
+            
+            color: #000000;
+            
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            @apply sm:hidden;
+          }
+          
+        }
+  
+      }
+
+    }
+
+
+
+  }
+ 
+
+}
