@@ -587,7 +587,6 @@ table {
   justify-content: center;
   align-items: center;
   width: 80%;
-  min-height: 70px;
 }
 
 .nav-menu .pick-plan {
@@ -634,6 +633,17 @@ table {
   }
 }
 
+.nav-menu .pick-plan button p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
 .nav-menu .pick-plan button:hover {
   background: #dfdfdf;
 }
@@ -675,7 +685,7 @@ table {
 
 @media only screen and (min-width: 769px) {
   .nav-logo {
-    margin-top: 26px;
+    margin-top: 5px;
   }
 }
 
