@@ -10,7 +10,7 @@
 .hero-cont {
   position: relative;
   width: 100%;
-  @apply sm:flex sm:flex-row-reverse sm:h-[730px] lg:h-[830px];
+  @apply sm:flex sm:flex-row-reverse sm:h-[630px];
 
   .gradient-line {
     background: linear-gradient(
@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
 
-    @apply sm:-left-[60px] sm:top-[363px] sm:rotate-90 lg:top-[413px];
+    @apply sm:-left-[60px] sm:top-[303px] sm:rotate-90 ;
 
   }
 

@@ -277,12 +277,9 @@ table {
 }@media (min-width: 640px) {.features-hero-cont {
     display: flex;
   }.features-hero-cont {
-    height: 730px;
+    height: 630px;
   }.features-hero-cont {
     flex-direction: row-reverse;
-  }
-}@media (min-width: 1024px) {.features-hero-cont {
-    height: 830px;
   }
 }.features-hero-cont .gradient-line {
   background: linear-gradient(90deg, #ffc593 0%, #bc7198 35%, #5a77ff 100%);
@@ -293,13 +290,10 @@ table {
 }@media (min-width: 640px) {.features-hero-cont .gradient-line {
     left: -60px;
   }.features-hero-cont .gradient-line {
-    top: 363px;
+    top: 303px;
   }.features-hero-cont .gradient-line {
     --tw-rotate: 90deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-}@media (min-width: 1024px) {.features-hero-cont .gradient-line {
-    top: 413px;
   }
 }.features-hero-cont .hero-text-cont {
   position: relative;
@@ -1753,15 +1747,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
   .hero-cont{
-    height: 730px;
+    height: 630px;
   }
   .hero-cont{
     flex-direction: row-reverse;
-  }
-}
-@media (min-width: 1024px){
-  .hero-cont{
-    height: 830px;
   }
 }
 .hero-cont .gradient-line {
@@ -1776,16 +1765,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: -60px;
   }
   .hero-cont .gradient-line{
-    top: 363px;
+    top: 303px;
   }
   .hero-cont .gradient-line{
     --tw-rotate: 90deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-}
-@media (min-width: 1024px){
-  .hero-cont .gradient-line{
-    top: 413px;
   }
 }
 .hero-cont .hero-text-cont {
@@ -2184,8 +2168,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:h-\[730px\]{
     height: 730px !important;
   }
-  .sm\:h-\[830px\]{
-    height: 830px !important;
+  .sm\:h-\[630px\]{
+    height: 630px !important;
   }
   .sm\:h-\[490px\]{
     height: 490px !important;
