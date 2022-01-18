@@ -663,7 +663,6 @@ table {
 
 .nav-logo {
   width: 100%;
-  margin-top: 26px;
   max-width: 200px;
 }
 
@@ -671,6 +670,12 @@ table {
 
   .nav-logo {
     margin-left: 160px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .nav-logo {
+    margin-top: 26px;
   }
 }
 
