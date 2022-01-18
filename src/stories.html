@@ -11,6 +11,33 @@
     <title>Photosnap</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar z-50">
+            <a href="/src/index.html" class="nav-logo min-w-[200px]"><img src="../public/assets/shared/desktop/logo.svg" width="200"/></a>
+            <ul class="nav-menu z-50">
+                <li class="nav-item">
+                    <a href="../src/stories.html" class="nav-link">STORIES</a>
+                </li>
+                <li class="nav-item ">
+                  <a href="../src/features.html" class="nav-link">FEATURES</a>
+                </li>
+                <li class="nav-item lg:mr-[200px]">
+                    <a href="../src/pricing.html" class="nav-link">PRICING</a>
+                </li>
+                <li class=" pick-plan">
+                    <button>GET INVITE</button>
+                </li>
+            </ul>
+            <button class="border-none">
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            </button>
+         
+        </nav>
+    </header> 
     <div class="stories-hero-cont">
         <div class="hero-img">
             <picture>
@@ -512,24 +539,24 @@
             </div>
 
             <div class="footer-links">
-                <ul class="flex flex-col items-center">
+                <ul class="flex flex-col items-center sm:flex-row lg:flex-col">
                     <li>
-                        <a>
+                        <a href="../src/index.html">
                             HOME
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="../src/stories.html">
                             STORIES
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="../src/features.html">
                             FEATURES
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="../src/pricing.html">
                             PRICING
                         </a>
                     </li>
@@ -553,6 +580,8 @@
 
         </div>
     </footer>
+    <script src="../src/js/app.js"></script>
+
 </body>
 
 </html>

@@ -259,16 +259,26 @@
   background-color: black;
   color: white;
   padding: 56px 33px;
-
+  position: relative;
+  @apply sm:min-h-[284px];
+  .footer-logo{
+    @apply sm:absolute sm:top-[64px] sm:left-[33px];
+  }
   .footer-socials {
     margin-top: 32px;
+    @apply sm:absolute sm:bottom-[64px] sm:left-[33px];
+
   }
 
   .footer-links {
     margin-top: 30px;
+    @apply sm:absolute sm:top-[64px] sm:left-[33px] lg:top-[20px] lg:left-[279px];
+
+
 
     li {
       margin-top: 19px;
+      @apply sm:mr-[26px];
     }
   }
 
@@ -286,6 +296,8 @@
     letter-spacing: 2px;
 
     color: #ffffff;
+
+    @apply sm:absolute sm:-top-[50px] sm:right-[33px];
   }
 
   .footer-copyright {
@@ -303,5 +315,7 @@
 
     mix-blend-mode: normal;
     opacity: 0.5;
+    @apply sm:absolute sm:bottom-[64px] sm:right-[33px];
+
   }
 }
